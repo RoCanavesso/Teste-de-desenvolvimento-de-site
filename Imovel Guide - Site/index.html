@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imóvel Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <div id = "barra">
+        <img class = "logo" src="logo.png"></img>
+        <!--Logo da empresa na barra inicial-->
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div id = "itens">
+            <button id = "b_condominios">Condomínios</button>
+            <button id = "b_forum">Fórum</button>
+            <button id = "b_guia">Guia</button>
+            <button id = "b_artigos">Artigos</button>
+            <button id = "b_ferramentas">Ferramentas</button>
+            <button id = "b_cotar">Cotar Imóvel</button>
+            <button id = "b_planos">Planos</button>
+            <button id = "b_entrar">Entrar</button>
+            <button id = "b_cadastrar">Cadastre-se</button>
+        </div>
+        
+        <i class="material-symbols-outlined" onclick = "clicarHamburger()">menu</i>
+
+        <div id = "hamburger_lista"></div>
+    </div>
+
+    <div id = "flex_bloco_1">
+        <div id = "num_1">
+            <h1>1</h1>
+        </div>
+
+        <div id = "flex_1">
+            <img class = "pessoa_1" src = "pessoa_1.jpeg"></img>
+            <img class = "pessoa_2" src = "pessoa_2.jpeg"></img>
+            
+            <div id = "textos_1">
+                <text class = "corretores">Nome Corretora</text>
+                <br>
+                <text class = "pontos">3.000 pontos</text>
+                <br>
+                <a class = "url" href="" onclick = "verNum1()">ver telefone</a>
+            </div>
+
+            <div id = "textos_2">
+                <text class = "corretores">Nome Corretor</text>
+                <br>
+                <text class = "pontos">1.260 pontos</text>
+                <br>
+                <a class = "url" href = "" onclick = "verNum2()">ver telefone</a>
+            </div>
+        </div>
+
+        <div id = "num_2">
+            <h1>2</h1>
+        </div>
+
+        <div id = "flex_2">
+            <div id = "textos_3">
+                <text id = "mandar_msg">Mande uma mensagem: </text>
+            </div>
+
+            <div id = "input_1">
+                <input type = "text" placeholder = "Digite seu CPF" name = "digite_cpf" id = "digite_cpf">
+                <input type = "text" placeholder = "Digite seu telefone" name = "digite_telefone" id = "digite_telefone">
+                <textarea type = "text" placeholder = "Digite o assunto" name = "digite_assunto" id = "digite_assunto"></textarea>
+            </div>
+
+            <button id = "botao_1" onclick = "enviarAssunto()">Enviar Mensagem</button>
+        </div>
+
+        <div id = "num_3">
+            <h1>3</h1>
+        </div>
+
+        <div id = "flex_3">
+            <div id = "textos_4">
+                <text id = "Regra_de_3">Regra de 3</text>
+            </div>
+
+            <div id = "input_2">
+                <input type = "number" placeholder = "60" name = "regrade3_1" id = "regra_1">
+                <input type = "number" placeholder = "100" name = "regrade3_2" id = "regra_2">
+                <input type = "number" placeholder = "30" name = "regrade3_3" id = "regra_3">
+                <input type = "text" name = "regrade3_4" id = "regra_4">
+            </div>
+
+            <div id = linhas>
+                <text id = "linha1">___</text>
+                <text id = "linha2">___</text>
+            </div>
+
+            <button id = "botao_2" onclick = "calcular_regra_de_3()">Calcular</button>
+        </div>
+    </div>
+
+    <div id = "flex_bloco_2">
+        <div id = "num_4">
+            <h1>4</h1>
+        </div>
+
+        <div id = "flex_4">
+            <img id = "img_casa_1" src="casa.png">
+        </div>
+    </div>
+
+    <button id = "botao_modal_abrir">ABRIR IMAGEM NO MODAL</button>
+
+    <dialog id = "dialog_1">
+        <button id = "botao_modal_fechar">X</button>
+
+        <br>
+
+        <p>
+            <img id = "img_casa_2" src = "casa.png">
+        </p>
+    </dialog>
+
+    <div id = "flex_bloco_2">
+        <div id = "num_5">
+            <h1>5</h1>
+        </div>
+
+        <div id = "flex_5">
+            <img id = "img_download" src = "casa.png">
+
+            <text id = "marca_dagua">Imovel Guide</text>
+        </div>
+
+        <button id = "botao_download">Download</button>
+
+        <div id = "num_6">
+            <h1>6</h1>
+        </div>
+
+        <div id = "flex_6">
+            <img id = "img_casa_animado" src = "casa.png">
+        </div>
+    </div>
+
+    <br>
+    <br>
+
+    <div id = "barra_final">
+        <button id = "b_termos">Termos</button>
+        <button id = "b_contatos">Contatos</button>
+        <button id = "b_sobre">Sobre</button>
+
+        <text id = "copyright">@ Copyright 2022. Todos os direitos reservados.</text>
+
+        <img id = "logo_final" src = "logo.png">
+    </div>
+
+    <script src = "html2canvas.min.js"></script>
+    <script src = "script.js"></script>
+</body>
+</html>

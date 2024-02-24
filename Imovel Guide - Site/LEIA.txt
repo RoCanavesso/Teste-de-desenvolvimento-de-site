@@ -1,0 +1,10 @@
+Como o site precisava ser responsivo, eu fiz um exemplo de como seria em 600px e 900px em celular e tablet, 
+ja de desktop usei o padrao, 1920x1080
+
+Na parte 5, tive problemas usando a biblioteca que pediram, onde a imagem que peguei aparentemente deu problema de DOM, 
+pelo o que entendi seria um erro de imagem de domínio diferente, como eu peguei a imagem do google, ele considera violação 
+das políticas de segurança do navegador. Como nunca mexi com essa biblioteca, não sei como arrumar o erro, 
+mas aparentemente se trocar a imagem para uma que não dê esse problema, talvez funcione.
+
+Na parte 6, fiz com que ao passar o mouse pela imagem, apresenta um zoom da imagem, mostrando a imagem da casa 
+por completo.
