@@ -1,3 +1,5 @@
+// Creator: Rômulo C O Canavesso
+
 function verNum1(){
     alert("(99) 99999-9999");
 }
