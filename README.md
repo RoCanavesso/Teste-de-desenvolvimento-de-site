@@ -1,5 +1,5 @@
 # Site de imobiliária
-Site criado por mim, com o intuito de analisar minhas habilidades de HTML/CSS e JavaScript. 
+Site de minha autoria, com o intuito de analisar minhas habilidades de HTML/CSS e JavaScript. 
 
 O tema foi dado por uma empresa de vendas de imóveis, onde pediram para que realizasse o procedimento por conta própria em 3 dias úteis, com compatibilidade para usuários de computadores, tablets e celulares.
 
