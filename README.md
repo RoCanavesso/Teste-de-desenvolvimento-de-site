@@ -1,10 +1,14 @@
-# Teste de estágio da empresa Imóvel Guide
+# Site de imobiliária
 Site criado por mim, com o intuito de analisar minhas habilidades de HTML/CSS e JavaScript. 
 
 O tema foi dado por uma empresa de vendas de imóveis, onde pediram para que realizasse o procedimento por conta própria em 3 dias úteis, com compatibilidade para usuários de computadores, tablets e celulares.
 
-A proposta do site era replicar um já existente, com os mesmos modelos de designe e funcionalidades, porém não me disponibilizaram nem as próprias imagens para realizar tal desafio, logo tive que buscar maneiras de implementar as mesmas imagens e configurações do modelo exemplar para finalizar o teste.
+Nesse teste, usei ferramentas que nunca tive contato, como o html2canvas, que graças ao meu empenho, esforço e vontade de aprender, fui em busca de compreender a ferramenta para implementar no projeto, e assim consegui finalizar o teste!
 
-Nesse teste, usei de ferramentas que nunca tive contato, como o html2canvas, que graças ao meu empenho, esforço e vontade de aprender, fui em busca de compreender a ferramenta para implementar no projeto, e assim consegui finalizar o teste!
+Gosto desse site pois me serviu de aprendizado e mostrou minhas capacidades de desenvolvimento como um programador júnior em HTML/CSS, e um pouco sobre Javascript, linguagem que até então nunca tinha feito projeto tão grande como esse.
 
-Infelizmente, não optei por aceitar a continuar no processo seletivo do estágio, mas me serviu de aprendizado e mostrou minhas capacidades de desenvolvimento como um programador júnior em HTML/CSS, e um pouco sobre Javascript, linguagem que até então nunca tinha feito projeto tão grande.
+O site possui algumas funcionalidades básicas de Front-End, como botões, caixas de input, modais e alert box.
+
+Infelizmente há apenas uma dificuldade que tive nesse site, que era de implementar um sistema de download, onde o usuário final clicava em um botao e uma imagem de uma casa era baixada no computador. Como estava começando a aprender a programar em HTML/CSS e JavaScript, me faltou conhecimento para concluir essa etapa...
+
+O projeto foi realizado no meu segundo semestre do curso de CC no Centro Universitário FEI, em 2022.
