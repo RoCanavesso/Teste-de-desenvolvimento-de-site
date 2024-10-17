@@ -9,6 +9,6 @@ Gosto desse site pois me serviu de aprendizado e mostrou minhas capacidades de d
 
 O site possui algumas funcionalidades básicas de Front-End, como botões, caixas de input, modais e alert box.
 
-Infelizmente há apenas uma dificuldade que tive nesse site, que era de implementar um sistema de download, onde o usuário final clicava em um botao e uma imagem de uma casa era baixada no computador. Como estava começando a aprender a programar em HTML/CSS e JavaScript, me faltou conhecimento para concluir essa etapa...
+Infelizmente há apenas uma dificuldade que tive nesse site, que era de implementar um sistema de download, onde o usuário final clicava em um botao e uma imagem de uma casa era baixada no computador do mesmo. Como estava começando a aprender a programar em HTML/CSS e JavaScript, me faltou conhecimento para concluir essa etapa...
 
 O projeto foi realizado no meu segundo semestre do curso de CC no Centro Universitário FEI, em 2022.
